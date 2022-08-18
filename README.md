@@ -62,7 +62,7 @@ GET /lyrics
 
 ## Model Diagram
 
-![alt text](https://github.com/nitr-dimple/Web-Designing-Project/tree/master/musicapp/assets/Model%20Diagram.png?raw=true)
+![alt text](https://github.com/nitr-dimple/Web-Designing-Project/blob/master/musicapp/assets/Model%20Diagram.png)
 
 ## User Stories
 
