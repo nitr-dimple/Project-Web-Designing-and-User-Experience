@@ -1,24 +1,5 @@
 # Entertainment Platform
 
-## Team Member
-
-Name: Dimpleben Kanjibhai Patel<br>
-Email: patel.dim@northeastern.edu <br>
-NUID: 002965372<br>
-<br>
-Name: Uppala Nikhil<br>
-Email: uppala.n@northeastern.edu<br>
-NUID: 002925788<br>
-<br>
-Name: Sairam Mantravadi<br>
-Email: sairam.m@northeastern.edu<br>
-NUID: 002951479<br>
-<br>
-Name: Priyanka Akula<br>
-Email: akula.p@northeastern.edu <br>
-NUID: 002981839<br>
-<br>
-
 ## Project Description
 
 Entertainment Platform allows you to music/video streaming, maintaining playlists.
