@@ -62,7 +62,7 @@ GET /lyrics
 
 ## Model Diagram
 
-![alt text](https://github.com/neu-mis-info6150-spring-2022/final-project-summeriscoming/blob/main/musicapp/assets/Model%20Diagram.png?raw=true)
+![alt text](https://github.com/nitr-dimple/Web-Designing-Project/tree/master/musicapp/assets/Model%20Diagram.png?raw=true)
 
 ## User Stories
 
