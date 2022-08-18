@@ -1,0 +1,81 @@
+.pcontainer{
+    // background: linear-gradient(180deg, #675A6F 0%, #440B67 48.44%, #000000 100%);
+	width: 100vw;
+	max-height: 800px;
+	overflow: scroll;
+	
+	flex-direction: column;
+	
+		.playlist-container{
+			position: relative;
+					display: flex;
+					padding: 5rem 5rem 2rem 5rem;
+					align-items: flex-end;
+					justify-content: flex-start;
+
+				.gradient{
+					position: absolute;
+						width: 100%;
+						height: 100%;
+						left: 0;
+						top: 0;
+						background: linear-gradient(transparent 0, rgba(0, 0, 0, 0.4) 100%);
+						}
+
+					img {
+							width: 10rem;
+							height: 10rem;
+							box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+							margin-right: 2rem;
+							}    
+
+					h1,p,span{
+						color: azure;
+						text-align: left;
+						}
+
+				.playlist_info {
+						margin-right: 5rem;
+						align-items: flex-start;
+						h1 {
+							font-size: 8rem;
+							margin: 0;
+							font-weight: bold;
+							}
+						p {
+							font-size: 1.4rem;
+							margin: 0;
+							text-transform: uppercase;
+							}
+						span{
+							font-size: 1.4rem;
+							}
+						}   
+			}
+	.songs{
+		
+		display: flex;
+		flex-direction: column;
+		padding-left:7rem;
+		border-top: solid rgba(255, 255, 255, 0.385);
+
+		.song{
+			display: flex;
+			flex-direction: row;
+			padding-top: 0.3rem;
+			gap: 1rem;
+			color: white;
+			}
+	}
+
+
+
+
+
+}
+.sidebar{
+        
+	background-color: black;
+	
+}
+

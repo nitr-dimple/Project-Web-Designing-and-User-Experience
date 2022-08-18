@@ -1,0 +1,84 @@
+.sr-container{
+     padding: 15px;
+     display: flex;
+     // flex-basis: 100px;
+     cursor: pointer;
+     // height: 150px;
+
+     .sr-item{
+          flex-basis: 400px;
+          flex-direction:column;
+          padding: 5px;
+          background-color: rgba(184, 184, 184, 0.169);
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          border-radius: 5px;
+          // height: 120px;
+          overflow: hidden;
+
+          .selectPopup {
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+
+               select { 
+                    appearance: none;
+                    width: 120px;
+                    height: 100%;
+                    border: none;
+                    border-radius:3px;
+                    text-align: center;
+                    background-color: rgba(184, 184, 184, 0.44);
+                    // color:rgba(255, 255, 255, 0.779);
+                    margin-bottom: 7px;
+                    option {
+                         // color: rgba(16, 14, 14, 0);
+                    }
+               }
+               
+               .iconSelect {
+                    padding-left: 10px;
+                    color: rgb(188, 184, 184);
+                    height: 40px;
+                    width: 40px;
+                    margin-bottom: 7px;
+                    &:hover{
+                         cursor: pointer;
+                    }
+               }
+          }
+          .albumImage {
+               height: 160px;
+               width: 180px
+          }
+          .title {
+               padding: 5px;
+               color: white;
+               font-size: medium;
+               height:30px;
+               width: 180px;
+               overflow: hidden;
+          }
+          .description {
+               padding-left: 5px;
+               color:rgb(198, 205, 205);
+               font-size: 12px;
+               height:60px;
+               width: 180px;
+               overflow: hidden;
+          }
+
+     .icons{
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          color: white;
+          padding:15px;
+          transform: scale(1.5);
+          }
+          
+     }
+}

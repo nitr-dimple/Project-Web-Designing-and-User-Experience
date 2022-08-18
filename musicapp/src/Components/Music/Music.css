@@ -1,0 +1,75 @@
+.item-container {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+  cursor: pointer;
+}
+
+.item-container .item {
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  background-color: rgba(184, 184, 184, 0.169);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.item-container .item .albumImage {
+  height: 160px;
+  width: 180px;
+}
+
+.item-container .item .title {
+  padding: 5px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.item-container .item .description {
+  padding-left: 5px;
+  color: #c6cdcd;
+  font-size: 11px;
+  height: 100px;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+
+.item-container .item .description::-webkit-scrollbar {
+  display: none;
+}
+
+.item-container .item .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  color: white;
+  padding: 15px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=Music.css.map */

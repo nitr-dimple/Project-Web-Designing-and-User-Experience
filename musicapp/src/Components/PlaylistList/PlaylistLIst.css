@@ -1,0 +1,50 @@
+.addIcon {
+  color: #bcb8b8;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 7px;
+}
+
+.addIcon:hover {
+  cursor: pointer;
+}
+
+.playlist_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  background-color: #2a2a2a;
+  margin: 50px 0px 3px 35px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.playlist_container .menu {
+  width: 100px;
+}
+
+.playlist_container .addIcon {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  width: 10px;
+}
+
+.playlist_container .addIcon :hover {
+  color: #4038ba;
+}
+/*# sourceMappingURL=PlaylistLIst.css.map */

@@ -1,0 +1,99 @@
+.sidebar-container {
+	position: sticky;
+	background-color:black;
+	height:100vh;
+	top: 0;
+	left: 0;
+	max-width: fit-content;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	padding: 0px 40px 0px 10px;
+	z-index: 100;
+
+	.list-container { 
+		height: 200px;
+		overflow:auto;
+	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		margin: 4rem 1rem 1rem 4rem;
+	}
+	.createplaylist{ 
+		color:black;
+		margin: 10px
+	}
+	.addIcon{ 
+		color: rgb(255, 255, 255);
+		height: 35px;
+		width: 35px;
+		margin-bottom: 7px;
+		&:hover{
+			cursor: pointer;
+			background-color: rgba(73, 73, 73, 0.218);
+		}
+	}
+
+	.userName{ 	
+		color: white;
+		font-size:24px;
+		font-weight: bold;
+		padding: 10px;
+		margin-left: 2rem;
+		text-transform: capitalize;
+		margin-bottom: 20px;
+		&:hover { 
+			cursor: pointer;
+		}
+	}
+		span {
+			font-size: 1rem;
+			font-weight: 600;
+			color: white;
+
+			&:hover {
+			color: grey;
+		}
+		}
+
+		&:hover {
+			color: var(--white);
+		}
+
+		.logoutbutton{
+			background-color: #99999962; 
+			margin-left: 1rem;
+			margin-bottom: 1rem;
+  				border: none;
+  				color: white;
+  				padding: 8px 15px;
+  				text-align: center;
+  				text-decoration: none;
+				display: inline-block;
+  				font-size: 16px;
+				font-weight: bold;
+				border-radius: 8px;
+
+				&:hover{
+					background-color: #0be85879;		
+				}
+				.menu-active{
+					color:rgb(255, 255, 255);
+
+					
+				}
+		}
+		.menu{
+
+			
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 25px;
+	font-size: 25px;
+	max-width: 133px;
+	
+}
+
+}

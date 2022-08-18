@@ -1,0 +1,26 @@
+.Song-container{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 5rem;
+    margin: 5px;
+     background-color: rgba(184, 184, 184, 0.169);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     border-radius: 5px;
+
+    img{
+        padding: 10px;
+    }
+    .Song-details{
+        width: 100%;
+        padding: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+}

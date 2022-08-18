@@ -1,0 +1,29 @@
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 15fr;
+      grid-template-columns: 3fr 15fr;
+  grid-auto-rows: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .container-home {
+  background: -webkit-gradient(linear, left bottom, left top, from(#434347), color-stop(26%, #090979), color-stop(56%, #1b3752), to(#5a1111));
+  background: linear-gradient(0deg, #434347 0%, #090979 26%, #1b3752 56%, #5a1111 100%);
+}
+
+.main .sidebar {
+  height: 100vw;
+  background-color: black;
+}
+
+.player {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+}
+/*# sourceMappingURL=UserPlaylist.css.map */

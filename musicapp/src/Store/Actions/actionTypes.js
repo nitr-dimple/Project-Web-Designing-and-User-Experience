@@ -1,0 +1,10 @@
+export const TOKEN_UPDATED = 'tokenUpdated';
+export const UPDATED_SONGS_SEARCH = 'updatedSongsSearch';
+export const UPDATED_PLAYING_TRACKS = 'updatedPlayingTracks';
+export const UPDATED_LYRICS = 'updatedLyrics';
+export const UPDATED_TOP_SONGS_PLAYLIST = 'updatedTopSongsPlaylist';
+export const UPDATED_LOGIN_DETAILS = 'updatedLoginDetails';
+export const UPDATED_LOGIN_RESPONSE = 'updatedLoginResponse';
+export const UPDATED_USER_DETAILS = 'updatedUserDetails';
+export const UPDATED_USER_PLAYLIST = 'updateUserPlaylist';
+export const USER_PLAYLIST_NAME = 'updateUserPlaylistName';
